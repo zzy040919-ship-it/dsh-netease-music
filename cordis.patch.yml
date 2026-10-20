@@ -1,0 +1,4 @@
+# dsh bundle patch: 网易云播放器
+- insert:
+    - id: dsh-netease-music
+      name: 'dsh-netease-music'

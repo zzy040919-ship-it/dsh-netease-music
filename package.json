@@ -1,0 +1,27 @@
+{
+  "name": "dsh-netease-music",
+  "version": "0.2.0",
+  "private": true,
+  "description": "网易云音乐播放器（仅播放器：搜歌 / 播放 / 音量 / 账号 / 同步客户端），不含背景和特效。",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout"
+      ]
+    }
+  }
+}
