@@ -1,6 +1,6 @@
 # dsh-netease-music
 
-DeepSeek Harness 的网易云音乐播放器插件 —— **只有播放器，没有背景和特效**。
+DeepSeek Harness 的网易云音乐播放器插件
 
 ## 功能
 
