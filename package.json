@@ -1,11 +1,27 @@
 {
   "name": "dsh-netease-music",
-  "version": "0.2.0",
-  "private": true,
-  "description": "网易云音乐播放器（仅播放器：搜歌 / 播放 / 音量 / 账号 / 同步客户端），不含背景和特效。",
+  "version": "0.3.0",
+  "description": "NetEase Cloud Music player for DeepSeek Harness: mini bar, liquid-glass card, vinyl view, search, lyrics, auto sign-in with the local NetEase client, client sync. Player only, no background effects.",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "netease",
+    "music",
+    "player",
+    "lyrics"
+  ],
+  "license": "MIT",
   "type": "module",
   "main": "lib/index.js",
   "icon": "./icon.svg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzy040919-ship-it/dsh-netease-music.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
   "exports": {
     ".": "./lib/index.js",
     "./client": "./lib/client.js",
